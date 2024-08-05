@@ -12,7 +12,6 @@ import { IoMailUnreadOutline } from "react-icons/io5";
 import { TbReportSearch } from "react-icons/tb";
 import { SiVexxhost } from "react-icons/si";
 import bankImg from "../assets/bankpng.png";
-import raz from "../assets/razorpay.png";
 
 import { Link } from "react-router-dom";
 import Statement from "../components/Statement";

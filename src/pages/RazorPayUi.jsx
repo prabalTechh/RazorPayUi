@@ -13,17 +13,19 @@ import { FaRegUser } from "react-icons/fa";
 import { Link } from "react-router-dom";
 import { FaAngleDown } from "react-icons/fa";
 import logo from "../assets/logo img.png"
-import raz from "../assets/razorpay.png"
+import ping from "../assets/pngwing.com (5).png"
 
 const RazorPayUi = () => {
   return (
     <div className="h-screen w-full flex justify-between bg-[rgba(13,18,25,255)]">
       <div className="w-[360px] hidden lg:flex h-full lg:flex-col gap-8 pl-4 pt-6 bg-[rgba(26,33,43,255)] text-white">
-        <h1 className="text-xl flex items-center">
-        
-          <img src={raz} alt="" className="w-1/2 " /><span className="text-4xl"><img src={logo} alt="" className="h-8" /></span>
+      <h1 className="text-xl flex items-center">
+          <img src={ping} alt="" className="h-6" />
+          Razorpay
+          <span className="text-4xl">
+            <img src={logo} alt="" className="h-8" />
+          </span>
         </h1>
-
         <ul className="flex flex-col text-sm gap-6  ">
           <li className="flex gap-1 items-center hover:bg-slate-800">
             <AiOutlineHome />
