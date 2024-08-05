@@ -3,7 +3,7 @@ import { TiTick } from "react-icons/ti";
 const Statement = () => {
   return (
     <>
-      <div className="w-screen mx-auto lg:w-[1024px] h-32 border-t-2 border-green-400 flex pt-6  justify-between">
+      <div className="w-screen mx-auto lg:w-[1024px] h-32 border-t-2 border-green-400 flex pt-6 bg-[rgba(23,29,38,255)] justify-between">
         <h1 className="pl-10 w-40 text-sm">Amazon instant Settlements</h1>
         <span className="flex flex-col items-baseline gap-2 ">
           <p className="text-xs  flex relative right-5 px-2 gap-4">
@@ -18,7 +18,7 @@ const Statement = () => {
           </button>
         </span>
       </div>
-      <div className="w-screen mx-auto lg:w-[1024px] h-32 border-t-2 border-green-400 flex pt-2 pr-6   justify-between">
+      <div className="w-screen mx-auto lg:w-[1024px] h-32 border-t-2 border-green-400 flex pt-2 pr-6 bg-[rgba(23,29,38,255)]  justify-between">
         <h1 className="pl-10 w-40 text-sm">Creating payouts in Live mode</h1>
         <span className="flex flex-col items-baseline gap-2 ">
           <p className="text-xs px-2 pr-2 flex gap-4">
@@ -38,10 +38,10 @@ const Statement = () => {
             <button className="py-2 px-5 bg-blue-400 rounded-sm text-xs uppercase">
               Apply now
             </button>
-            <button className="py-2 px-5 bg-blue-400 rounded-sm text-xs uppercase">
+            <button className="py-2 px-5 bg-[#2e353f] rounded-sm text-xs uppercase">
               Show Apps for Me
             </button>
-            <button className="py-2 px-5 bg-blue-400 rounded-sm text-xs uppercase">
+            <button className="py-2 px-5 bg-[#2e353f] rounded-sm text-xs uppercase">
               api payouts
             </button>
           </div>
